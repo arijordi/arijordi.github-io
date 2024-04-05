@@ -1,0 +1,64 @@
+
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+#qr{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qr__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
+    padding: 15px;
+}
+
+#qr__container img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.qr__text {
+    margin: 15px 0 20px 0;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.qr__text h2{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.qr__text p{
+    margin: 15px 0 0 0;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
